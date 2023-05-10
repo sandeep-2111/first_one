@@ -44,28 +44,28 @@ public class first {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 520, 402);
+		frame.setBounds(100, 100, 411, 490);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("name");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		lblNewLabel.setBounds(106, 109, 71, 17);
+		lblNewLabel.setBounds(82, 109, 71, 17);
 		frame.getContentPane().add(lblNewLabel);
 		
 		textField = new JTextField();
-		textField.setBounds(269, 106, 86, 20);
+		textField.setBounds(239, 111, 86, 20);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
 		textField_1 = new JTextField();
-		textField_1.setBounds(269, 191, 86, 20);
+		textField_1.setBounds(239, 191, 86, 20);
 		frame.getContentPane().add(textField_1);
 		textField_1.setColumns(10);
 		
 		JLabel lblNewLabel_1 = new JLabel("password");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		lblNewLabel_1.setBounds(106, 177, 86, 40);
+		lblNewLabel_1.setBounds(82, 177, 86, 40);
 		frame.getContentPane().add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_2 = new JLabel("SIGN");
